@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OUR Contact Address</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: blue;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: green;
+    }
+    /* Unvisited link */
+    a:link {
+      color: green; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: green;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: white;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+      padding: 8px; 
+    }
+    section{
+      padding:10px;
+    }
+    .dropdown {
+      display: inline;
+      margin-right: 10px;
+      position: relative;
+    }
+
+    .dropdown .dropdown-contents {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-contents {
+      display: block;
+    }
+  </style>
+  
+<header>
+   
+
+</head>
+
+<body bgcolor="yellow">
+  <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+       <img src="./image/myexams.jpg" width="90" height="60" alt="Logo">
+    </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./assigment.php">assigment</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./course.php">course</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./enrollment.php">enrollment</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./exam.php">exam</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Services.php">SERVICES</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./submission.php">submission</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./grade.php">grade</a></li>
+  
+    <li class="dropdown">
+      <a href="#" style="padding: 10px; color: white; background-color: seagreen; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+    <br><br>  
+  </ul>
+
+</header>
+<section>
+  <h2><bold><u> OUR CONTACT</u></bold></h2>
+  <ul></ul>
+  <li>Address: 250 Main Street, Kigali city, Rwanda</li>
+  <li>Phone: +250 789372842</li>
+  <li>Email: onlineexamination@gmail.com</li>
+  <li>X: phyiro</li>
+  <li>Facebook: online examination</li>
+  <li>IG: online examination250</li>
+</ul>
+
+<form action="submit_contact" method="POST">
+  <label for="name">Names:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Telephone:</label><br>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="X">X:</label><br>
+  <input type="X" id="X" name="X"><br>
+
+  <label for="Ig">Instagram:</label><br>
+  <input type="Ig" id="Ig" name="Ig"><br>
+
+  <label for="Faceb">Facebook:</label><br>
+  <input type="Faceb" id="Faceb" name="Faceb"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <input type="submit" value="send">
+</form>
+<p>Connect with us on social media or social networkings:
+
+  <a href="https://www.X.com/onlineexamination">X</a>
+  <a href="https://www.facebook.com/onlineexamination">Facebook</a>
+  <a href="https://www.instagram.com/onlineexamination">Instagram</a>
+  <a href="https://www.linkedin.com/onlineexamination">LinkedIn</a>
+</p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg222009793, Designer by: NIYISUBIZA leontine</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
